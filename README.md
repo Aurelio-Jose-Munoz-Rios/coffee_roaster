@@ -1,5 +1,5 @@
 # YRoaster 
-Flutter application was developed for Android. The application is capable of connecting to an Arduino device via Bluetooth and sending temperature-related commands.
+Flutter application was developed for Android. The application is able of connecting to an Arduino device via Bluetooth and sending temperature-related commands.
 
 Each profile in the app has an associated vector of points, which is used as input for the Arduino program. Using these points, the Arduino implements a temperature control system by comparing the desired temperature values with the real-time readings obtained from a Type K thermocouple through the RTC module. Based on this comparison, the Arduino controls the amount of gas delivered at the output.
 
